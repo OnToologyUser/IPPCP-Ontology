@@ -1,24 +1,32 @@
-# XXX Ontology
+# Emissions Inventory Ontology
 
-The XXX ontology describes the domain of XXX
+The Emissions Inventory Ontology (EIO) provides a semantic model for representing emissions inventory data in urban and territorial contexts.
 
+The ontology describes emission measurements and assessments by connecting the emitted pollutant, emission sector, geographical feature, reporting period, numerical value, and unit of measurement.
+
+EIO reuses concepts and properties from established vocabularies, including SAREF, SAREF4CITY, OWL-Time, GEOSPARQL, and QUDT.
 
 # Purpose and scope of the vocabulary
 
-The purpose of the XXX ontology is to YYYY. 
-The scope of the XXX ontology is limited to ZZZ.
+The purpose of the Emissions Inventory Ontology is to provide a common and machine-readable representation of emissions inventory data. It supports the integration, publication, comparison, and querying of emission data originating from different geographical areas, reporting periods, pollutants, and economic or activity sectors.
+
+The ontology enables the representation of:
+
+- Emission assessments as instances of s4city:KeyPerformanceIndicatorAssessment.
+- The pollutant or emission indicator quantified by an assessment.
+- The sector or subsector responsible for the emissions.
+- Geographical features such as cities, districts, and spatial cells.
+- The reporting period associated with an emission assessment.
+- Numerical emission values and their units of measurement.
 
 # Ontology prefix and namespace
 
-The XXX ontology prefix is: XXX and it is published under the namespace: https://webdomain.ext/def/domain/subdomain# 
+The Emissions Inventory Ontology prefix is: eio and it is published under the namespace: [http://w3id.org/def/emissionsInventoryOntology#
+]([url](http://w3id.org/def/emissionsInventoryOntology#))
 
 # Ontology Conceptualization Image
 
-Every ontology development repository should include, in this root README, a visual representation of the ontology conceptualization.
-This image helps users and contributors quickly understand the ontology’s structure, key concepts, and relationships.
-- The image should be located in the conceptualization folder.
-- Accepted formats: .svg, .png, or .drawio.
-- It should be referenced in this README using Markdown syntax, for example:
+The following diagram provides a visual representation of the main concepts and relationships included in the Emissions Inventory Ontology:
 
 ![Ontology Conceptualization Diagram](diagrams/diagram.png)
 
@@ -31,7 +39,6 @@ The repository should contain (at least) the following folders:
 | **diagrams/** | Stores diagrams and other resources representing the conceptual model of the ontology (e.g., class hierarchies, relationships). |
 | **documentation/** | Stores the HTML or human oriented documentation of the ontology and related artefacts. |
 | **examples/** | Includes examples that demonstrate how to instantiate or apply the ontology in real data scenarios. |
-| **kos/** | Stores controlled vocabularies or KOS implementation, usually SKOS implementations in rdf. |
 | **ontology/** | Contains the actual ontology implementation files in formats such as `.owl`, `.rdf`, `.ttl`, or `.jsonld`. |
 | **requirements/** | Contains all documents used to define the ontology’s requirements: data example, competency questions, functional requirements, use cases, etc. |
 | **shapes/** | Contains the SHACL shapes used to define and validate ontology constraints. |
