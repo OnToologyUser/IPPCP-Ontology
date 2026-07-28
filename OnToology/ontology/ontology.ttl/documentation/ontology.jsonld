@@ -1,0 +1,2277 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2006/time#year"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://saref.etsi.org/core/isMeasuredIn"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/TONNE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A unit of mass equal to 1,000 kilograms"
+  }, {
+    "@language" : "es",
+    "@value" : "Una unidad de masa equivalente a 1.000 kilogramos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tonelada"
+  }, {
+    "@language" : "en",
+    "@value" : "Tonne"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-05-24"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "es",
+    "@value" : "Edgar Alexis Martínez"
+  }, {
+    "@language" : "es",
+    "@value" : "Lucía Sánchez-González"
+  }, {
+    "@language" : "es",
+    "@value" : "Oscar Corcho"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "City-level environmental and climate ontology for Local Green Deal."
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "The Emissions lnventory Ontology"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "eio"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology/1.0.0#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#AFOLU",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Agriculture, forestry & other land uses sector."
+  }, {
+    "@language" : "es",
+    "@value" : "Sector de la agricultura, la silvicultura y otros usos de la tierra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AFOLU"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Agriculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Agriculture subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de la agricultura."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Agricultura"
+  }, {
+    "@language" : "en",
+    "@value" : "Agriculture"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#AFOLU"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#AsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Arsenic (As) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de arsénico (As) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "As"
+  }, {
+    "@language" : "es",
+    "@value" : "As"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#AutomotiveDieselConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de gasóleo para automoción"
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of automotive diesel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_GASOLEO_A"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Aviation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Aviation subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de la aviación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Aviación"
+  }, {
+    "@language" : "en",
+    "@value" : "Aviation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#BCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Black Carbon (BC) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de Carbón Negro (BC) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BC"
+  }, {
+    "@language" : "es",
+    "@value" : "BC"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#BaPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Benzo(a)pyrene emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de Benzo(a)pireno dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BENZO_A"
+  }, {
+    "@language" : "es",
+    "@value" : "BENZO_A"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#BbFScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Benzo(b)fluoranthene emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de BENZO(b)FLUORANTENO dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BENZO_B"
+  }, {
+    "@language" : "es",
+    "@value" : "BENZO_B"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#C6H6Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Benzene (C6H6) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de benceno (C6H6) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "C6H6"
+  }, {
+    "@language" : "es",
+    "@value" : "C6H6"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CH4Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de metano (CH4) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Methane (CH4) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CH4_ALC1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CH4Scope2Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de metano (CH4) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
+  }, {
+    "@language" : "en",
+    "@value" : "Methane (CH4) emissions within Scope 2. Indirect emissions from electricity consumption."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CH4_ALC2"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CH4Scope3Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de metano (CH4) dentro del Alcance 3. Otras emisiones indirectas."
+  }, {
+    "@language" : "en",
+    "@value" : "Methane (CH4) emissions within Scope 3. Other indirect emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CH4_ALC3"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CO2Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Carbon dioxide (CO2) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de dióxido de carbono (CO2) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CO2_ALC1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CO2Scope2Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Carbon dioxide (CO2) emissions within Scope 2. Indirect emissions from electricity consumption."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CO2_ALC2"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CO2Scope3Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Carbon dioxide (CO2) emissions within Scope 3. Other indirect emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de dióxido de carbono (CO2) dentro del Alcance 3. Otras emisiones indirectas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CO2_ALC3"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#COScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Carbon monoxide (CO) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "CO"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Cattle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cattle subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de los bóvidos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Bóvidos"
+  }, {
+    "@language" : "en",
+    "@value" : "Cattle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CdScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cadmium (Cd) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de Cadmio (Cd) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cd"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Cell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A spatial unit that represents an individual division of a geographic grid or urban mesh. Example: A square cell of an urban grid or a hexagonal cell used for spatial analysis."
+  }, {
+    "@language" : "es",
+    "@value" : "Unidad espacial que representa una división individual de una cuadrícula geográfica o red urbana. Ejemplo: Una celda cuadrada de una cuadrícula urbana o una celda hexagonal utilizada para análisis espacial."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Celda"
+  }, {
+    "@language" : "en",
+    "@value" : "Cell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CrScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Chromium (Cr) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de Cromo (Cr) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cr"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#CuScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Copper (Cu) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de Cobre (Cu) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cu"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#ElectricGridEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de electricidad (mix eléctrico nacional)."
+  }, {
+    "@language" : "en",
+    "@value" : "Final electricity consumption (national electricity mix)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_ELECTRICIDAD_MIXNAC"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#ElectricRenewableEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."
+  }, {
+    "@language" : "en",
+    "@value" : "Final electricity consumption with Guarantee of Origin (GO) Renewable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_ELECTRICIDAD_GDO"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#GHGEmissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Gases de efecto invernadero (GEI)."
+  }, {
+    "@language" : "en",
+    "@value" : "Greenhouse gases (GHG)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "GEI"
+  }, {
+    "@language" : "en",
+    "@value" : "GHG"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#GHGEmissionsVariation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Greenhouse Gas (GHG) Variation."
+  }, {
+    "@language" : "es",
+    "@value" : "Variación de los Gases de efecto invernadero (GEI)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "VARIACION_GEI"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#GasolineConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de gasolina"
+  }, {
+    "@language" : "en",
+    "@value" : "Final gasoline consumption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_GASOLINA"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Goats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Goats subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector caprino."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Caprino"
+  }, {
+    "@language" : "en",
+    "@value" : "Goats"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#HCBScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Hexachlorobenzene emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "HCB"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#HFCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de hidrofluorocarbonos (HFC) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Hydrofluorocarbon (HFC) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "HFC_ALC1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#HeatingOilConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de gasóleo para calefacción"
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of heating oil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_GASOLEO_C"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#HgScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Mercury (Hg) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Hg"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Horses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Horses subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de équidos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Horses"
+  }, {
+    "@language" : "es",
+    "@value" : "Équidos"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#IPPU",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Industrial processes & product use."
+  }, {
+    "@language" : "es",
+    "@value" : "Sector de los procesos industriales y el uso de productos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IPPU"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#IPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Indeno[1,2,3-cd]pyrene dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Indeno[1,2,3-cd]pyrene emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "INDENO_123"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#IndustrialBuildings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Industrial buildings subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de los edificios industriales."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Edificios industriales"
+  }, {
+    "@language" : "en",
+    "@value" : "Industrial buildings"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Stationary"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#InstitutionalAndServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Institutional and services subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector institucional y de servicios."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Institucional y servicios"
+  }, {
+    "@language" : "en",
+    "@value" : "Institutional and services"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Stationary"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#IrrigatedAgriculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Irrigated agriculture subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de la agricultura de regadío."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Agricultura de regadío"
+  }, {
+    "@language" : "en",
+    "@value" : "Irrigated agriculture"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Agriculture"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#LPGConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de GLP"
+  }, {
+    "@language" : "en",
+    "@value" : "Final LPG consumption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_GLP"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Livestock subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de la ganadería."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ganadería"
+  }, {
+    "@language" : "en",
+    "@value" : "Livestock"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#AFOLU"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#MunicipalFleet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Municipal fleet subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de la flota municipal."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Flota municipal"
+  }, {
+    "@language" : "en",
+    "@value" : "Municipal fleet"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnRoadTransport"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#N2OScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de óxido nitroso (N2O) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Nitrous oxide (N2O) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "N2O_ALC1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#N2OScope2Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
+  }, {
+    "@language" : "en",
+    "@value" : "Nitrous oxide (N2O) emissions within Scope 2. Indirect emissions from electricity consumption."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "N2O_ALC2"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#N2OScope3Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de óxido nitroso (N2O) dentro del Alcance 3. Otras emisiones indirectas."
+  }, {
+    "@language" : "en",
+    "@value" : "Nitrous oxide (N2O) emissions within Scope 3. Other indirect emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "N2O_ALC3"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#NH3Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ammonia (NH3) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de amoníaco (NH3) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "NH3"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#NMVOCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Compuestos Orgánicos Volátiles Sin Metano (COVNM) dentro del Alcance 1. Emisiones directas"
+  }, {
+    "@language" : "en",
+    "@value" : "Non-Methane Volatile Organic Compound (NMVOC) emissions within Scope 1. Direct emissions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "COVNM"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#NOxScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Nitrogen oxide (NOx) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "NOx"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#NaturalGasConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de Gas Natural"
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of Natural Gas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_GASNATURAL"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#NiScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Níquel (Ni) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Nickel (Ni) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ni"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#NonRenewableBiomassConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de biomasa de origen no renovable"
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of biomass from non-renewable sources"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_BIOMASA"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnRoadPrivateTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "On-road private transport subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector del transporte privado por carretera."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "On-road private transport"
+  }, {
+    "@language" : "es",
+    "@value" : "Transporte privado por carretera"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnRoadTransport"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnRoadPublicTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "On-road public transport subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector del transporte público por carretera."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "On-road public transport"
+  }, {
+    "@language" : "es",
+    "@value" : "Transporte público por carretera"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnRoadTransport"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnRoadTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "On-road transport subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector del transporte por carretera."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "On-road transport"
+  }, {
+    "@language" : "es",
+    "@value" : "Transporte por carretera"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#OnSiteElectricRenewableEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de electricidad a partir de fuentes renovables generada localmente."
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of electricity from locally generated renewable sources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_ELECTRICIDAD_RES_LOCAL"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#OtherFossilFuelsConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de otros combustibles fósiles. Por ejemplo, queroseno para el subsector del transporte aéreo."
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of other fossil fuels. For example, kerosene for the air transport subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_OTROS_FOSILES"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#OtherRenewableEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Consumo final de otra energía de origen renovable."
+  }, {
+    "@language" : "en",
+    "@value" : "Final consumption of other renewable energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "C_OTROS_RES"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PAHScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones totales de Hidrocarburos Aromáticos Policíclicos dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Total emissions of Polycyclic Aromatic Hydrocarbons within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "PAH"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PCBsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de óxidos de Bifenilos policlorados dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Polychlorinated biphenyl oxide emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "PCBs"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PCDDandPCDFScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Dioxin and Furan (PCDD+PCDF) emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Emisiones de Dioxinas y Furanos (PCDD+PCDF) dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "DIOX"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PFCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de perfluorocarbonos (PFC) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Perfluorocarbon (PFC) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "PFC_ALC1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PM10Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de materia particulada de 10 micrómetros o menos (PM 10) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Particulate matter emissions of 10 micrometers or less (PM10) within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "PM10"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PM2.5Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de materia particulada de 2,5 micrómetros o menos (PM2.5) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Emissions of particulate matter of 2.5 micrometers or less (PM2.5) within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "PM2.5"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#PbScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Lead (Pb) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Pb"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Poultry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Poultry subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de las aves de corral."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Aves de corral"
+  }, {
+    "@language" : "en",
+    "@value" : "Poultry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Rabbits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Rabbits subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector cunícola."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Conejos"
+  }, {
+    "@language" : "en",
+    "@value" : "Rabbits"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#RainfedAgriculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Rainfed agriculture subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de la agricultura de secano."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Agricultura de secano"
+  }, {
+    "@language" : "en",
+    "@value" : "Rainfed agriculture"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Agriculture"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#ResidentialBuildings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Residential buildings subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector de edificios residenciales."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Edificios residenciales"
+  }, {
+    "@language" : "en",
+    "@value" : "Residential buildings"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Stationary"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#SF6Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de hexafluoruro de azufre (SF6) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Sulfur hexafluoride (SF6) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "SF6_ALC1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#SO2Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de dióxidos de azufre (SO2) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Sulfur dioxide (SO2) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "SO2"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#SeScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Selenium (Se) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Se"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A broad area of economic or productive activity, such as agriculture, industry, or transport."
+  }, {
+    "@language" : "es",
+    "@value" : "Un ámbito amplio de actividad económica o productiva, como la agricultura, la industria o el transporte."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sector"
+  }, {
+    "@language" : "es",
+    "@value" : "Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sheep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sheep subsector."
+  }, {
+    "@language" : "es",
+    "@value" : "Subsector ovino."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ovino"
+  }, {
+    "@language" : "en",
+    "@value" : "Sheep"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Stationary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Sector de las fuentes estacionarias."
+  }, {
+    "@language" : "en",
+    "@value" : "Stationary sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Fuentes estacionarias"
+  }, {
+    "@language" : "en",
+    "@value" : "Stationary"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Swine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Subsector porcino."
+  }, {
+    "@language" : "en",
+    "@value" : "Swine subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cerdos"
+  }, {
+    "@language" : "en",
+    "@value" : "Swine"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Livestock"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#TSPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de materia particulada total (PTSP) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Total particulate matter (TPPM) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "TSP"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#TotalHeavyMetalsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sum of heavy metal emissions within Scope 1. Direct emissions."
+  }, {
+    "@language" : "es",
+    "@value" : "Sumatoria de la emisión de metales pesados dentro del Alcance 1. Emisiones directas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "TOTAL_MPESADOS"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#TotalPOPsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones totales de Compuestos Orgánicos Persistentes (POPs) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Total emissions of Persistent Organic Pollutants (POPs) within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "TOTAL_POPs"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Sector del transporte."
+  }, {
+    "@language" : "en",
+    "@value" : "Transport sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport"
+  }, {
+    "@language" : "es",
+    "@value" : "Transporte"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#UrbanWoodland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Sector de las zonas arboladas urbanas."
+  }, {
+    "@language" : "en",
+    "@value" : "Urban woodland sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Urban woodland"
+  }, {
+    "@language" : "es",
+    "@value" : "Zonas Arboladas Urbanas"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#VOCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Compuestos Orgánicos Volátiles (COV) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Emissions of Volatile Organic Compounds (VOCs) within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "COV"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#Waste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Subsector de los residuos."
+  }, {
+    "@language" : "en",
+    "@value" : "Waste subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Residuos"
+  }, {
+    "@language" : "en",
+    "@value" : "Waste"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Stationary"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#ZnScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emisiones de Zinc (Zn) dentro del Alcance 1. Emisiones directas."
+  }, {
+    "@language" : "en",
+    "@value" : "Zinc (Zn) emissions within Scope 1. Direct emissions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Zn"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/emissionsInventoryOntology#refersToSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Esta propiedad vincula una instancia de s4city:KeyPerformanceIndicatorAssessment con una instancia de eio:Sector. Identifica el sector dentro del cual se interpreta o aplica el indicador clave de rendimiento evaluado."
+  }, {
+    "@language" : "en",
+    "@value" : "This property links an instance of s4city:KeyPerformanceIndicatorAssessment to an instance of eio:Sector. It identifies the sector within which the assessed key performance indicator is interpreted or applied."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to sector"
+  }, {
+    "@language" : "es",
+    "@value" : "refiere al sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3id.org/def/emissionsInventoryOntology#Sector"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A discrete spatial phenomenon in a universe of discourse. A Feature represents a uniquely identifiable phenomenon, for example a river or an apple."
+  }, {
+    "@language" : "es",
+    "@value" : "Un fenómeno espacial discreto dentro de un universo de discurso. Una entidad geográfica representa un fenómeno identificable de manera única, como un río o una manzana."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/spec/geosparql"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#Geometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A coherent set of direct positions in space. The positions are held within a Spatial Reference System (SRS)."
+  }, {
+    "@language" : "es",
+    "@value" : "Un conjunto coherente de posiciones directas en el espacio. Las posiciones se expresan dentro de un sistema de referencia espacial (SRS)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Anything spatial (being or having a shape, position or an extent)"
+  }, {
+    "@language" : "es",
+    "@value" : "Todo lo espacial (que tiene forma, posición o extensión)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Spatial Object"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#asWKT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Links a Geometry to its Well-Known Text (WKT) serialization."
+  }, {
+    "@language" : "es",
+    "@value" : "Vincula una geometría con su serialización en formato Well-Known Text (WKT)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "as WKT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A spatial representation for a given Feature."
+  }, {
+    "@language" : "es",
+    "@value" : "Una representación espacial para una característica determinada."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Geometry"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#sfContains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Indica que el objeto espacial que actúa como sujeto contiene espacialmente al objeto espacial que actúa como objeto."
+  }, {
+    "@language" : "en",
+    "@value" : "States that the subject SpatialObject spatially contains the object SpatialObject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "contiene espacialmente"
+  }, {
+    "@language" : "en",
+    "@value" : "sf contains"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#sfWithin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Indica que el objeto espacial que actúa como sujeto está espacialmente contenido dentro del objeto espacial que actúa como objeto."
+  }, {
+    "@language" : "en",
+    "@value" : "States that the subject SpatialObject is spatially within the object SpatialObject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sf within"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Well-known Text serialization of a Geometry object."
+  }, {
+    "@language" : "es",
+    "@value" : "Una serialización Well-Known Text de un objeto geométrico."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Well-known Text literal"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "comment"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "label"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A SKOS concept can be viewed as an idea or notion; a unit of thought."
+  }, {
+    "@language" : "es",
+    "@value" : "Un concepto SKOS puede verse como una idea o noción; una unidad de pensamiento."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Concept"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Relaciona un concepto con otro concepto cuyo significado es más amplio o general."
+  }, {
+    "@language" : "en",
+    "@value" : "Relates a concept to a concept that is broader in meaning."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "broader"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#DateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Descripción de la fecha y la hora estructuradas con valores separados para los distintos elementos de un sistema de calendario-reloj. El sistema de referencia temporal está fijado al calendario gregoriano, y el rango de las propiedades de año, mes y día está restringido a los tipos de esquema XML correspondientes: xsd:gYear, xsd:gMonth y xsd:gDay, respectivamente."
+  }, {
+    "@language" : "en",
+    "@value" : "Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date Time Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#DateTimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defined using the multi-element date-time description. Can only be used for an interval whose boundaries match a date-time element aligned with the specified calendar and time zone."
+  }, {
+    "@language" : "es",
+    "@value" : "Definida utilizando el multi-elemento descripción de fecha-hora. Se puede utilizar sólo para un intervalo cuyos límites coinciden con un elemento de fecha-hora alineados con el calendario y la zona horaria indicados."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date Time Interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Descripción de la fecha y la hora estructuradas con valores separados para los distintos elementos de un sistema de calendario-reloj."
+  }, {
+    "@language" : "en",
+    "@value" : "Description of date and time structured with separate values for the various elements of a calendar-clock system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "General Date Time Description"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#Instant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A temporal entity with zero extent or duration."
+  }, {
+    "@language" : "es",
+    "@value" : "Una entidad temporal con extensión o duración cero."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Instant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A temporal entity with a limited extension or duration."
+  }, {
+    "@language" : "es",
+    "@value" : "Una entidad temporal con una extensión o duración limitada."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#ProperInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"
+  }, {
+    "@language" : "es",
+    "@value" : "Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual el valor del principio y del final son diferentes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Proper Interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2006/time#Interval"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#TemporalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A temporal interval or instant."
+  }, {
+    "@language" : "es",
+    "@value" : "Un intervalo de tiempo o instante."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Temporal Entity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Valor de DateTimeInterval expresado como un valor estructurado. El inicio y el final del intervalo coinciden con los límites del elemento más corto de la descripción."
+  }, {
+    "@language" : "en",
+    "@value" : "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2006/time#DateTimeInterval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has date time description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Posición del año en un sistema de calendario y reloj."
+  }, {
+    "@language" : "en",
+    "@value" : "Year position in a calendar-clock system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2006/time#DateTimeDescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2006/time#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/UnitOfMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La unidad de medida es un estándar para medir una cantidad, como por ejemplo una propiedad."
+  }, {
+    "@language" : "en",
+    "@value" : "The unit of measure is a standard for measurement of a quantity, such as a Property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/core/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Unit Of Measure"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Valor de una propiedad expresado como un literal RDF. Tenga en cuenta que, aunque se esperan valores decimales, estos podrían utilizar otros tipos de datos."
+  }, {
+    "@language" : "en",
+    "@value" : "Value of a property value expressed as an RDF literal. Note that, even if decimal values are expected, values could use other datatypes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/core/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has value"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/isMeasuredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relationship identifying the unit of measure used for a certain entity."
+  }, {
+    "@language" : "es",
+    "@value" : "Una relación que identifica la unidad de medida utilizada para una determinada entidad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/core/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is measured in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/AdministrativeArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An administrative division, unit, entity, area or region, also referred to as a subnational entity, constituent unit, or country subdivision, is a portion of a country or other region delineated for the purpose of administration. (https://en.wikipedia.org/wiki/Administrative_division"
+  }, {
+    "@language" : "es",
+    "@value" : "Una división administrativa, unidad, entidad, área o región, también denominada entidad subnacional, unidad constituyente o subdivisión de país, es una porción de un país u otra región delimitada con fines administrativos. (https://en.wikipedia.org/wiki/Administrative_division"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Administrative Area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A city is a large human settlement. A city is distinguished from other human settlements by its relatively great size, but also by its functions and its special symbolic status, which may be conferred by a central authority. (https://en.wikipedia.org/wiki/City)"
+  }, {
+    "@language" : "es",
+    "@value" : "Una ciudad es un gran asentamiento humano. Se distingue de otros asentamientos humanos por su tamaño relativamente grande, pero también por sus funciones y su estatus simbólico especial, que puede ser conferido por una autoridad central. (https://en.wikipedia.org/wiki/City)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/AdministrativeArea"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A district is a type of administrative division that, in some countries, is managed by local government. Across the world, areas known as \"districts\" vary greatly in size, spanning regions or counties, several municipalities, subdivisions of municipalities, school district, or political district. (https://en.wikipedia.org/wiki/District)"
+  }, {
+    "@language" : "es",
+    "@value" : "Un distrito es un tipo de división administrativa que, en algunos países, es administrada por el gobierno local. En todo el mundo, las áreas conocidas como \"distritos\" varían mucho en tamaño, abarcando regiones o condados, varios municipios, subdivisiones de municipios, distritos escolares o distritos políticos. (https://en.wikipedia.org/wiki/District)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/AdministrativeArea"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Key Performance Indicator (KPI) is a type of performance measurement. KPIs evaluate the success of an organization or of a particular activity in which it engages. (Definition taken from FIWARE)"
+  }, {
+    "@language" : "es",
+    "@value" : "Un Indicador Clave de Desempeño (KPI, por sus siglas en inglés) es un tipo de medición del desempeño. Los KPI evalúan el éxito de una organización o de una actividad específica en la que participa. (Definición tomada de FIWARE)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Indicador clave de rendimiento"
+  }, {
+    "@language" : "en",
+    "@value" : "Key Performance Indicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Key Performance Indicator assessment represents the assessment of a KPI calculated by a given agent in a given time."
+  }, {
+    "@language" : "es",
+    "@value" : "Una evaluación de Indicadores Clave de Rendimiento (del inglés sus siglas son KPI) representa la evaluación de un KPI calculado por un agente determinado en un tiempo determinado."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Key Performance Indicator Assessment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Relación entre una evaluación de indicadores clave de rendimiento y el indicador clave de rendimiento general que se está evaluando."
+  }, {
+    "@language" : "en",
+    "@value" : "Relation between a Key Performance Indicator Assessment and the general Key Performance Indicator being assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "quantifies KPI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/refersToFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Relación entre una evaluación de KPI y la característica geográfica a la que se refiere."
+  }, {
+    "@language" : "en",
+    "@value" : "Relation between a KPI assessment and the geographical feature it refers to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "refers to feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/refersToTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Relación entre una evaluación de KPI y la entidad temporal a la que se refiere."
+  }, {
+    "@language" : "en",
+    "@value" : "Relation between a KPI assessment and the temporal entity it refers to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "refers to time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mod#createdWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
