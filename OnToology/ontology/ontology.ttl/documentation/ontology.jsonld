@@ -79,7 +79,7 @@
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "City-level environmental and climate ontology for Local Green Deal."
+    "@value" : "City-level environmental and climate ontology for Local Green Deal. Prueba."
   } ],
   "http://purl.org/dc/elements/1.1/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"

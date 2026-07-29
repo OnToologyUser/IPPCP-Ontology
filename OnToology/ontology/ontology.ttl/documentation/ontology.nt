@@ -1,10 +1,10 @@
 <http://w3id.org/def/emissionsInventoryOntology#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://w3id.org/def/emissionsInventoryOntology#> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/def/emissionsInventoryOntology/1.0.0#> .
+<http://w3id.org/def/emissionsInventoryOntology#> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/def/emissionsInventoryOntology/1.0.0> .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/created> "2024-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/creator> "Edgar Alexis Martínez"@es .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/creator> "Lucía Sánchez-González"@es .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho"@es .
-<http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/description> "City-level environmental and climate ontology for Local Green Deal."@en .
+<http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/description> "City-level environmental and climate ontology for Local Green Deal. Prueba."@en .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/dc/elements/1.1/title> "The Emissions lnventory Ontology"@en .
 <http://w3id.org/def/emissionsInventoryOntology#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eio" .
