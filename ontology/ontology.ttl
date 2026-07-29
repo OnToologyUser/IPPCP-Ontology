@@ -22,7 +22,7 @@
                                                    dc:creator "Edgar Alexis Martínez"@es ,
                                                               "Lucía Sánchez-González"@es ,
                                                               "Oscar Corcho"@es ;
-                                                   dc:description "City-level environmental and climate ontology for Local Green Deal."@en ;
+                                                   dc:description "City-level environmental and climate ontology for Local Green Deal. Developed within the IPPCP project."@en ;
                                                    dc:license <https://creativecommons.org/licenses/by/4.0/> ;
                                                    dc:title "The Emissions lnventory Ontology"@en ;
                                                    vann:preferredNamespacePrefix "eio" ;
